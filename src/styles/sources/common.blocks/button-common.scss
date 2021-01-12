@@ -1,0 +1,15 @@
+
+
+.button-common {
+    // display: block;
+    background-color: $common-btn-c;
+    border: 1px solid $common-btn-b;
+    border-radius: 4px;
+    line-height: 16px;
+    font-size: $common-btn-fz;
+    color: $strong-font-c;
+}
+
+.button-common:hover {
+    box-shadow: 0 0 6px $common-btn-b;
+}

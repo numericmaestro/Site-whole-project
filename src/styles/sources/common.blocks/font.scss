@@ -1,0 +1,123 @@
+//Size
+
+.font--basic {
+    font-family: 'Inter', sans-serif;
+}
+.font--h1 {
+    font-size: $h1-fz;
+    line-height: $h1-lh;
+    color: $strong-font-c;
+    font-family: 'Inter', sans-serif;
+}
+
+.font--h2 {
+    font-size: $h2-fz;
+    line-height: $h2-lh;
+    color: $strong-font-c;
+    font-family: 'Inter', sans-serif;
+}
+
+.font--h3 {
+    font-size: $h3-fz;
+    line-height: $h3-lh;
+    color: $strong-font-c;
+    font-family: 'Inter', sans-serif;
+}
+
+.font--p2 {
+    font-size: $p2-fz;
+    line-height: $p2-lh;
+    color: $sick-font-c;
+    font-family: 'Inter', sans-serif;
+}
+
+.font--p3 {
+    font-size: $p3-fz;
+    line-height: $p3-lh;
+    color: $sick-font-c;
+    font-family: 'Inter', sans-serif;
+}
+
+.font--h1.font--inverse,
+.font--h2.font--inverse,
+.font--h3.font--inverse,
+.font--p2.font--inverse,
+.font--p3.font--inverse {
+    color: $reversed-font-c;
+}
+
+.font--strong {
+    color:$strong-font-c;
+}
+
+.font--sick {
+    color: $sick-font-c;
+}
+
+.font--strong.font--negative {
+    color: $negative-strong-font-c;
+}
+
+.font--sick.font--negative {
+    color: $negative-sick-font-c;
+}
+
+.font--lighlight {
+    position: relative;
+    display: inline-block;
+    z-index: -1;
+}
+
+.font--lighlight::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 50%;
+    background-color: $logo-c;
+    z-index: -1;
+}
+
+
+.font--medium {
+    font-weight: 500;
+}
+
+.font--hover-style:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+    .font--h1 {
+        font-size: $h1-fz-1200w;
+    }
+    .font--h2 {
+        font-size: $h2-fz-1200w;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .font--h2 {
+        font-size: $h2-fz-992w;
+    }
+    .font--p2 {
+        font-size: $p2-fz-992w;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    .font--h1 {
+        font-size: $h1-fz-688w;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .font--h1 {
+        font-size: $h1-fz-400w;
+    }
+    .font--h2 {
+        font-size: $h2-fz-400w;
+    }
+}

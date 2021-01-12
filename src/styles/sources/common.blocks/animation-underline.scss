@@ -1,0 +1,51 @@
+.animation-underline{
+    position: relative;
+}
+
+.animation-underline:before,
+.animation-underline:after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    width: 0px;
+    height: 2px;
+    margin: 5px 0 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    // background-color: $color;
+}
+.animation-underline:before {
+    left: 50%;
+}
+.animation-underline:after {
+    right: 50%;
+}
+
+.animation-underline--sick::before,
+.animation-underline--sick::after {
+    background-color: $sick-font-c;
+}
+
+.animation-underline--strong::before,
+.animation-underline--strong::after {
+    background-color: $strong-font-c;
+}
+
+.animation-underline--link::before,
+.animation-underline--link::after {
+    background-color: $link-font-c;
+}
+
+
+.animation-underline:hover:before,
+.animation-underline:hover:after,
+.animation-underline--sick:hover::before,
+.animation-underline--sick:hover::after,
+.animation-underline--strong:hover::before,
+.animation-underline--strong:hover::after,
+.animation-underline--link:hover::before,
+.animation-underline--link:hover::after {
+    width: 100%;
+    opacity: 1;
+    width: 50%;
+}

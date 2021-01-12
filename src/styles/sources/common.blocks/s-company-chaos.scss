@@ -1,0 +1,38 @@
+
+.s-company-chaos {}
+
+.s-company-chaos__container {}
+
+.s-company-chaos__title {
+    text-align: center;
+}
+
+.s-company-chaos__descr {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.s-company-chaos__image {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .s-company-chaos__descr br{
+        display: none;
+    }
+    .s-company-chaos__descr {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    .s-company-chaos__descr {
+        width: 100%;
+    }
+}

@@ -1,0 +1,49 @@
+@import './sources/settings/variables';
+@import './sources/settings/mixins';
+@import './sources/settings/reset';
+@import './sources/settings/font-inter';
+@import './sources/settings/focus';
+
+@import './sources/common.blocks/font';
+
+@import './sources/common.blocks/hamburgers';
+@import './sources/common.blocks/button-accent';
+@import './sources/common.blocks/button-common';
+@import './sources/common.blocks/button-neg-accent';
+@import './sources/common.blocks/button-neg-common';
+@import './sources/common.blocks/ball-icon';
+@import './sources/common.blocks/icon';
+@import './sources/common.blocks/navigation';
+@import './sources/common.blocks/label';
+@import './sources/common.blocks/feedback';
+
+//префикс s- используется для структурных блоков
+//их предназначение - позиционирование дочерних элементов в себе
+//они редко содержат стилезацию, только по необходимости
+
+@import './sources/common.blocks/s-container';
+@import './sources/common.blocks/s-header';
+@import './sources/common.blocks/s-footer';
+@import './sources/common.blocks/s-index-page';
+@import './sources/common.blocks/s-company-promo';
+@import './sources/common.blocks/s-company-promises';
+@import './sources/common.blocks/s-company-chaos';
+@import './sources/common.blocks/s-company-loudphrase';
+@import './sources/common.blocks/s-company-wecare';
+@import './sources/common.blocks/s-company-partners';
+@import './sources/common.blocks/s-company-description';
+@import './sources/common.blocks/s-company-delivery';
+@import './sources/common.blocks/s-company-reliability';
+@import './sources/common.blocks/s-company-more';
+@import './sources/common.blocks/s-company-accent';
+@import './sources/common.blocks/s-company-accent-banner';
+@import './sources/common.blocks/s-company-how';
+@import './sources/common.blocks/s-company-we';
+@import './sources/common.blocks/s-company-awards';
+@import './sources/common.blocks/s-company-order';
+
+//Плагины
+@import '~aos/src/sass/aos';
+@import './sources/common.blocks/animation-underline';
+
+//breakpoints: 1200, 992, 688 (400)

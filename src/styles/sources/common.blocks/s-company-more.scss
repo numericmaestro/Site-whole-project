@@ -1,0 +1,53 @@
+.s-company-more {
+}
+
+.s-company-more__container {
+    border-radius: 5px;
+    background-color: $background-banner-c;
+}
+
+.s-company-more__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+}
+
+.s-company-more__inner {
+    display: flex;
+    align-items: center;
+}
+
+.s-company-more__icon {
+    flex-shrink: 0;
+    width: 37px;
+    height: 37px;
+}
+
+.s-company-more__text {
+    margin-left: 24px;
+}
+
+.s-company-more__button {
+    display: block;
+    padding: 13px 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .s-company-more__wrapper {
+        // padding: 40px;
+        padding-left: unset;
+        padding-right: unset;
+        display: block;
+    }
+    .s-company-more__button {
+        // display: inline-block;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: min-content;
+    }
+    .s-company-more__text {
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,132 @@
+.s-index-page {
+    font-family: $font-family, sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.s-index-page__header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.s-index-page__promo {
+    padding: 74px 0;
+}
+
+.s-index-page__promises {
+    padding: 74px 0;
+}
+
+.s-index-page__chaos {
+    padding: 74px 0;
+}
+
+.s-index-page__loudphrase {
+    padding-top: 74px;
+    padding-bottom: 94px;
+}
+
+.s-index-page__wecare {
+    padding: 74px 0;
+}
+
+.s-index-page__partners {
+}
+
+.s-index-page__description {
+    padding: 74px 0;
+}
+
+.s-index-page__delivery {
+    padding-top: 74px;
+    padding-bottom: 51px;
+}
+
+.s-index-page__reliability {
+    padding-top: 74px;
+    padding-bottom: 64px;
+}
+
+.s-index-page__accent {
+    margin-top: 144px;
+}
+
+.s-index-page__accent-banner {
+    padding-bottom: 118px;
+}
+
+.s-index-page__how {
+    margin-top: 143px;
+    margin-bottom: 96px;
+}
+
+.s-index-page__we {
+}
+
+.s-index-page__awards {
+    padding-top: 127px;
+}
+
+.s-index-page__order {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+@media screen and (max-width: 992px) {
+    .s-index-page__promo {
+        // padding: 37px 0;
+        padding-bottom: 37px;
+    }
+    .s-index-page__promises {
+        padding: 37px 0;
+    }
+    .s-index-page__chaos {
+        padding: 37px 0;
+    }
+    .s-index-page__loudphrase {
+        padding-top: 45px;
+        padding-bottom: 55px;
+    }
+    .s-index-page__wecare {
+        padding: 37px 0;
+    }
+    .s-index-page__description {
+        padding: 37px 0;
+    }
+    .s-index-page__delivery {
+        padding: 37px 0;
+    }
+    .s-index-page__reliability {
+        padding: 37px 0;
+    }
+    .s-index-page__accent {
+        margin-top: 74px; //yes, 74
+    }
+    .s-index-page__accent-banner {
+        padding-bottom: 59px;
+    }
+    .s-index-page__how {
+        // margin: 0;
+        // padding: 37px 0;
+        // padding-top: 74px;
+        margin-top: 74px;
+        margin-bottom: 37px;
+    }
+    .s-index-page__we {
+        padding: 37px 0;
+    }
+    .s-index-page__awards {
+        padding: 37px 0;
+    }
+    .s-index-page__order {
+        padding: 75px 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .s-index-page__promo {
+        padding: 34px 0;
+        padding-top: 50px;
+    }
+}

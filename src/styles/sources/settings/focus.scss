@@ -1,0 +1,6 @@
+*:focus {
+    outline: 5px solid $focus-c;
+}
+.js-focus-visible :focus:not(.focus-visible) {
+    outline: none;
+  }

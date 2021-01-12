@@ -1,0 +1,57 @@
+.s-company-promo {
+}
+
+.s-company-promo__container {
+}
+
+.s-company-promo__title {
+    text-align: center;
+}
+
+.s-company-promo__buttons-block {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 15px;
+    justify-content: center;
+}
+
+.s-company-promo__button {
+    display: block;
+    padding: 13px 25px;
+}
+
+.s-company-promo__images-block {
+    margin-top: 88px;
+}
+
+.s-company-promo__image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.s-company-promo__image--2 {
+    margin-top: 36px;
+}
+
+@media screen and (max-width: 688px) {
+    .s-company-promo__title br {
+        display: none;
+    }
+    .s-company-promo__image {
+        width: min(460px, 100%);
+    }
+    .s-company-promo__image--2 {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .s-company-promo__buttons-block {
+        margin-top: 30px;
+    }
+    .s-company-promo__button {
+        padding: 10px 15px;
+    }
+}

@@ -1,0 +1,37 @@
+.navigation {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 22px;
+}
+.navigation__li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.navigation__link {
+    color: $sick-font-c;
+    font-size: $navigation-font-sz;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    width: max-content;
+}
+
+.navigation__link--hidden {
+    display: none;
+}
+// @include animate-underline(".navigation__link", $sick-font-c, 2px, 0.2s);
+// @include animate-underline(".navigation__link--active", $link-font-c, 2px, 0.2s);
+
+.navigation__link--active {
+    color: $link-font-c;
+}
+
+@media screen and (max-width: 1200px) {
+    .navigation {
+        column-gap: 15px;
+    }
+}

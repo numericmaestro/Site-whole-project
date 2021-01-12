@@ -1,0 +1,62 @@
+
+
+.s-company-accent-banner {
+    background-color: $negative-background-c;
+}
+
+.s-company-accent-banner__container {}
+
+.s-company-accent-banner__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 18px;
+}
+
+.s-company-accent-banner__item {
+}
+
+.s-company-accent-banner__icon {
+    margin: 0 auto;
+    display: block;
+    height: 48px;
+    width: 48px;
+}
+
+.s-company-accent-banner__title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.s-company-accent-banner__descr {
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .s-company-accent-banner__container {
+    }
+    .s-company-accent-banner__grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: auto;
+        row-gap: 3.0rem;
+    }
+    .s-company-accent-banner__item {
+        display: grid;
+        grid-template-columns: min-content auto;
+        column-gap: 20px;
+    }
+    .s-company-accent-banner__icon {
+        grid-row: 1 / 3;
+        margin: 0;
+    }
+    .s-company-accent-banner__title {
+        margin: 0;
+        text-align: left;
+    }
+    .s-company-accent-banner__descr {
+        margin: 0;
+        text-align: left;
+    }
+}

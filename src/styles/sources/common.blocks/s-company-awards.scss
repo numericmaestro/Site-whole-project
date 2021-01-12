@@ -1,0 +1,68 @@
+.s-company-awards {
+}
+
+.s-company-awards__container {
+}
+
+.s-company-awards__grid {
+    // width: 672px;
+    max-width: 672px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 164px);
+
+    grid-auto-rows: minmax(200px, max-content);
+    row-gap: 41px;
+    justify-content: space-between;
+}
+
+.s-company-awards__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.s-company-awards__item--center {
+    grid-column-start: 2;
+}
+
+.s-company-awards__image-block {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-company-awards__image {
+    max-width: 100%;
+    // height: 110px;
+    display: block;
+}
+
+.s-company-awards__descr {
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .s-company-awards__grid {
+        grid-template-columns: repeat(2, 164px);
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .s-company-awards__grid {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .s-company-awards__item {
+        margin-bottom: 40px;
+    }
+    .s-company-awards__item:last-child {
+        margin-bottom: 0;
+    }
+    .s-company-awards__descr {
+        margin-top: 10px;;
+    }
+}

@@ -1,0 +1,68 @@
+.s-company-reliability {
+}
+
+.s-company-reliability__container {
+}
+
+.s-company-reliability__title {
+    text-align: center;
+}
+
+.s-company-reliability__descr {
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 48px;
+}
+
+.s-company-reliability__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.s-company-reliability__item {
+    // max-width: 320px;
+}
+
+.s-company-reliability__icon {
+    margin: 0 auto;
+}
+
+.s-company-reliability__subtitle {
+    margin-top: 20px;
+    margin-bottom: 11px;
+    text-align: center;
+}
+
+.s-company-reliability__subdescr {
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .s-company-reliability__container {
+    }
+    .s-company-reliability__descr br {
+        display: none;
+    }
+    .s-company-reliability__grid {
+        grid-template-columns: auto;
+        row-gap: 3.0rem;
+    }
+    .s-company-reliability__item {
+        display: grid;
+        grid-template-columns: min-content auto;
+        column-gap: 20px;
+    }
+    .s-company-reliability__icon {
+        grid-row: 1 / 3;
+        margin: 0;
+    }
+    .s-company-reliability__subtitle {
+        margin: 0;
+        text-align: left;
+    }
+    .s-company-reliability__subdescr {
+        margin: 0;
+        text-align: left;
+    }
+}

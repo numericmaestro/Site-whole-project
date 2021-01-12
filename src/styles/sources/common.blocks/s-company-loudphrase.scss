@@ -1,0 +1,17 @@
+
+
+.s-company-loudphrase {}
+.s-company-loudphrase__container {}
+.s-company-loudphrase__title {
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .s-company-loudphrase__title br {
+        display: none;
+    }
+    .s-company-loudphrase__container {
+        width: 720px;
+        width: min(720px, 100%);
+    }
+}

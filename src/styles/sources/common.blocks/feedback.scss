@@ -1,0 +1,61 @@
+
+
+.feedback {
+    background-color: $background-feedback-c;
+    background-image: url("../public/images/quote(1).png");
+    background-repeat: no-repeat;
+    background-size: 101px auto;
+    background-position: 42px 46px;
+}
+
+.feedback__area {
+    padding: 60px 70px;
+}
+
+.feedback__quote {}
+
+.feedback__author {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: min-content auto;
+    column-gap: 8px;
+}
+
+.feedback__author-image {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 100%;
+}
+
+.feedback__author-name {}
+
+.feedback__post {}
+
+.feedback__dots {
+    margin-top: 28px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: min-content;
+    column-gap: 8px;
+}
+
+.feedback__dot {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: $background-feedback-dot-c;
+}
+
+.feedback__dot--active {
+    background-color: $background-feedback-dot-active-c;
+}
+
+@media screen and (max-width: 688px) {
+    .feedback {
+        background-position: 15px 35px;
+    }
+    .feedback__area {
+        padding: 50px 30px;
+    }
+}

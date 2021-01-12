@@ -1,0 +1,128 @@
+.s-company-how {
+}
+
+.s-company-how__container {
+}
+
+.s-company-how__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    row-gap: 30px;
+}
+
+.s-company-how__wrapper {
+    display: grid;
+    row-gap: 60px;
+    grid-auto-rows: max-content;
+}
+
+.s-company-how__text-block {
+}
+
+.s-company-how__title {
+}
+
+.s-company-how__descr {
+    margin-top: 21px;
+}
+
+.s-company-how__image-block {
+}
+
+.s-company-how__image {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.s-company-how__list {
+}
+
+.s-company-how__item {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    column-gap: 32px;
+    margin-top: 30px;
+    row-gap: 10px;
+}
+
+.s-company-how__count {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 40px;
+    height: 40px;
+    border: 1px solid $common-btn-b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-company-how__item::marker {
+    //remove the count number
+    content: "";
+}
+
+.s-company-how__subtitle {
+}
+
+.s-company-how__subdescr {
+}
+
+.s-company-how__buttons-block {
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    column-gap: 16px;
+}
+
+.s-company-how__button {
+    display: block;
+    padding: 13px 25px;
+}
+
+@media screen and (max-width: 992px) {
+    .s-company-how__item {
+        column-gap: 15px;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    .s-company-how__grid {
+        grid-template-columns: auto;
+        row-gap: 0;
+    }
+    .s-company-how__buttons-block {
+        grid-column-start: auto;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .s-company-how__wrapper {
+        row-gap: 20px;
+    }
+    .s-company-how__title {
+        text-align: center;
+    }
+    .s-company-how__descr {
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .s-company-how__descr br {
+        display: none;
+    }
+    .s-company-how__image-block {
+    }
+    .s-company-how__image {
+        margin: 0 auto;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .s-company-how__button {
+        display: block;
+        padding: 10px 15px;
+    }
+}

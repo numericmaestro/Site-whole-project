@@ -1,0 +1,59 @@
+
+
+.s-company-wecare {}
+
+.s-company-wecare__container {}
+
+.s-company-wecare__grid {
+    display: grid;
+    grid-template-columns: 100fr 95fr;
+}
+
+.s-company-wecare__text-block {}
+
+.s-company-wecare__title {}
+
+.s-company-wecare__descr {
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+.s-company-wecare__image-block {
+    justify-self: center;
+}
+
+.s-company-wecare__image img{
+    max-width: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1056px) {
+    .s-company-wecare__grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .s-company-wecare__title br {
+        display: none;
+    }
+    .s-company-wecare__image-block {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    .s-company-wecare__grid {
+        grid-template-columns: auto;
+        row-gap: 15px;
+    }
+    .s-company-wecare__title {
+        text-align: center;
+    }
+    .s-company-wecare__descr {
+        margin-bottom: auto;
+    }
+    .s-company-wecare__descr br{
+        display: none;
+    }
+    .s-company-wecare__image img{
+        width: 360px;
+    }
+}

@@ -1,0 +1,15 @@
+
+
+.button-accent {
+    // display: block;
+    background-color: $accent-btn-c;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    line-height: 16px;
+    font-size: $accent-btn-fz;
+    color: $reversed-font-c;
+}
+
+.button-accent:hover {
+    background-color: $accent-btn-hover-c;
+}

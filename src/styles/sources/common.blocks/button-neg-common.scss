@@ -1,0 +1,11 @@
+
+
+.button-neg-common {
+    // display: block;
+    background-color: $negative-background-c;
+    border: 1px solid $negative-btn-border-c;
+    border-radius: 4px;
+    line-height: 16px;
+    font-size: $common-btn-fz;
+    color: $reversed-font-c;
+}

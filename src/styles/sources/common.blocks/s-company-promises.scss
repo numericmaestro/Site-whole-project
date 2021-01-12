@@ -1,0 +1,62 @@
+.s-company-promises {
+}
+
+.s-company-promises__container {
+}
+
+.s-company-promises__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 41px;
+}
+
+.s-company-promises__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s-company-promises__icon {
+}
+
+.s-company-promises__title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.s-company-promises__descr {
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .s-company-promises__descr br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .s-company-promises__container {
+    }
+    .s-company-promises__grid {
+        grid-template-columns: auto;
+        row-gap: 3.0rem;
+    }
+    .s-company-promises__item {
+        display: grid;
+        grid-template-columns: min-content auto;
+        column-gap: 20px;
+    }
+    .s-company-promises__icon {
+        grid-row: 1 / 3;
+        margin: 0;
+    }
+    .s-company-promises__title {
+        margin: 0;
+        text-align: left;
+    }
+    .s-company-promises__descr {
+        margin: 0;
+        text-align: left;
+    }
+}

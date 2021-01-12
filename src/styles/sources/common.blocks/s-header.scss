@@ -1,0 +1,100 @@
+.s-header {
+    display: grid;
+    background-color: $background-c;
+    grid-template-columns: min-content auto min-content;
+    column-gap: 20px;
+    padding: 26px 31px;
+    align-items: center;
+    width: 100%;
+    z-index: 50;
+}
+
+.s-header__label {
+}
+
+.s-header__logo {
+    height: 44px;
+}
+
+.s-header__company-name {
+    font-size: 22px;
+}
+
+.s-header__nav {
+    justify-self: end;
+    display: flex;
+    height: 100%;
+}
+.s-header__button {
+    white-space: nowrap; //запретить перенос текста
+    padding: 9px 20px;
+    height: min-content;
+    font-size: $header-btn-fz;
+
+}
+
+.s-header__hamburger-general {
+    display: none;
+}
+
+// .s-header__hamburger {
+//     display: none;
+// }
+
+@media screen and (max-width: 1200px) {
+    .s-header__button {
+        display: none;
+    }
+    .s-header {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .s-header {
+        display: flex;
+        justify-content: space-between;
+        gap: 0;
+    }
+    .s-header__nav {
+        // спрятать, но оставить для скринридеров
+        border: 0;
+        clip: rect(0 0 0 0);
+        clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+        -webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+        white-space: nowrap;
+    }
+    .s-header__hamburger-general {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    .s-header {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .s-header__logo {
+        height: 34px;
+    }
+    .s-header__company-name {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .s-header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .s-header__company-name {
+        font-size: 20px;
+    }
+}
