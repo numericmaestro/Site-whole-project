@@ -124,7 +124,7 @@
 
 .hamburger__window-wrapper {
   position: fixed;
-  // display: none;
+  display: none;
   top: 0;
   left: 0;
   width: 100vw;
@@ -134,6 +134,7 @@
   z-index: -10;
 }
 .s-header__hamburger-general.is-active .hamburger__window-wrapper {
+  display: block;
   background-color: rgba(#000000, 0.6);
   z-index: 5;
 }
