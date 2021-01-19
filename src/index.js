@@ -2,8 +2,6 @@
 import './styles/index.scss';
 
 //Скрипты
-import Aos from 'aos';
-Aos.init();
 
 import './scripts/hamburger';
 

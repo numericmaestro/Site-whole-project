@@ -36,7 +36,6 @@
     "webpack-merge": "^5.7.3"
   },
   "dependencies": {
-    "aos": "^2.3.4",
     "focus-visible": "^5.2.0",
     "postcss-responsive-font": "^1.0.6",
     "siema": "^1.5.1"
